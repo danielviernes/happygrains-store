@@ -8,16 +8,16 @@ h1 {
 
 h2 {
   color: #e7b73e;
-  font-size: medium;
-  
+  font-size: 1rem;
 }
 
 h3 {
-  font-size: small;;
+  font-size: 0.9rem;;
 }
 
 h4 {
-  font-size: x-small;
+  font-size: 0.8rem;
+  color:darkgrey;
 }
 
 .logo {
