@@ -1,0 +1,10 @@
+.landing-section-container {
+    background:linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("/public/assets/landing-main-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding: 6rem 2rem;
+    height: 100vh
+}
+
