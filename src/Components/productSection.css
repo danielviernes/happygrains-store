@@ -1,0 +1,12 @@
+.main-product-img {
+    max-width: inherit;
+}
+
+.product-buttons-row {
+    padding: 0 2rem;
+}
+
+.product-buttons-row button {
+    display: block;
+    margin: 0 auto;
+}
