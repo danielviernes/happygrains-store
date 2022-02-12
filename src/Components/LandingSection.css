@@ -1,13 +1,25 @@
-.landing-section-container {
+.landing-section {
     background:linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("/public/assets/landing-main-image.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    margin: 0;
-    padding: 6rem 2rem;
-    height: 100vh
 }
 
-h1, h2, h3, h4, h5 {
-    filter: drop-shadow(-3px 3px 2px #999999);
+.landing-section .container {
+    margin: 0;
+    height: 100vh;
+    text-align: center;
 }
+
+.landing-section .container .row {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+button.order-btn {
+    margin: 0rem;
+}
+

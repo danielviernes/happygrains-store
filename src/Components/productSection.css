@@ -1,10 +1,13 @@
+.product-section {
+    background-color: #46f6ff21;
+}
 .main-product-img {
     max-width: inherit;
 }
 
-.product-buttons-row {
+/* .product-buttons-row {
     padding: 0 2rem;
-}
+} */
 
 .product-buttons-row button {
     display: block;
