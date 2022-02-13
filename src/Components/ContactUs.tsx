@@ -4,24 +4,26 @@ import StoreGoogleMap from "./StoreGoogleMap";
 
 const ContactUs = () => {
     return(
-        <div className="contact-us-section section">
+        <div id="contactUsSection" className="section">
             <Container>
-                <Row>
-                    <Col sm={12}><h1 className="section-heading hg-orange">Contact Us</h1></Col>
-                </Row>
-                <Row>
-                    <Col sm={12} className="gmaps-widget">
-                        <StoreGoogleMap />
-                    </Col>
-                    <Col className="contact-infos">
-                        <div className="info address"><span className="emoji">&#127968;</span>Blk 62 Lot 28, Villa Zaragosa, Turo, Bocaue Bulacan</div>
-                        <div className="info mobile"><span className="emoji">&#128222;</span>0917 XXX XXXX</div>
-                        <div className="info email"><span className="emoji">&#128231;</span>happygrainsbocaue@gmail.com</div>
-                    </Col>
-                </Row>
-                <Row>
+                <div className="inner-container">
+                    <Row>
+                        <Col sm={12}><h1 className="section-heading hg-orange">Contact Us</h1></Col>
+                    </Row>
+                    <Row>
+                        <Col sm={12} className="gmaps-widget">
+                            <StoreGoogleMap />
+                        </Col>
+                        <Col className="contact-infos">
+                            <div className="info address"><span className="emoji">&#127968;</span>Blk 62 Lot 28, Villa Zaragosa, Turo, Bocaue Bulacan</div>
+                            <div className="info mobile"><span className="emoji">&#128222;</span>0917 XXX XXXX</div>
+                            <div className="info email"><span className="emoji">&#128231;</span>happygrainsbocaue@gmail.com</div>
+                        </Col>
+                    </Row>
+                    <Row>
 
-                </Row>
+                    </Row>
+                </div>
             </Container>
         </div>
     );

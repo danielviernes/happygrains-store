@@ -15,6 +15,12 @@ const GlobalStyle = createGlobalStyle`
       margin-bottom: 2rem;
     }
 
+    .section .container {
+      margin: 0;
+      height: 100vh;
+      text-align: center;
+    }
+
     .order-btn:hover {
       background-color: transparent;
       color: #0a58ca;

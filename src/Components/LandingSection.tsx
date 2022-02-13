@@ -4,8 +4,8 @@ import './landingSection.css';
 const LandingSection = () => {
 
     return(
-        <div className="landing-section section">
-            <Container id="#">
+        <div id="landingSection" className="section">
+            <Container className="inner-container">
                 <Row>
                     <Col sm={12}><h1>Clean and delicious rice, right at your doorstep!</h1></Col>
                     <Col sm={12}><h3>Available in retail and wholesale.</h3></Col>

@@ -1,17 +1,11 @@
-.landing-section {
+#landingSection {
     background:linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("/public/assets/landing-main-image.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
-.landing-section .container {
-    margin: 0;
-    height: 100vh;
-    text-align: center;
-}
-
-.landing-section .container .row {
+#landingSection .container .row {
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
