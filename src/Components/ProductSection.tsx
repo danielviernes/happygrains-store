@@ -2,7 +2,7 @@ import { Image, Col, Container, Row, Button } from "react-bootstrap";
 import './productSection.css';
 
 const mainProductImage = () => {
-    return process.env.PUBLIC_URL + 'assets/sinandomeng.jpg';
+    return process.env.PUBLIC_URL + 'assets/sinandomeng.JPG';
 }
 
 const ProductSection = () => {
