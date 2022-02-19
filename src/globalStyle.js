@@ -19,6 +19,14 @@ const GlobalStyle = createGlobalStyle`
       margin: 0;
       height: 100vh;
       text-align: center;
+
+      display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+      display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      display: -webkit-flex;     /* NEW - Chrome */
+      display:flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .order-btn:hover {
@@ -38,7 +46,7 @@ const GlobalStyle = createGlobalStyle`
       border: 2px solid #e7b73e;
     }
 
-    h1, h2, h3, h4, button{
+    h1, h2, h3, h4, button, a{
       font-family: 'Fredoka One', cursive;
     }
 

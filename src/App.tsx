@@ -7,6 +7,7 @@ import ProductSection from './Components/ProductSection';
 import ContactUs from './Components/ContactUs';
 
 function App() {
+
   return (<div>
     <GlobalStyle />
     <Navigation />
