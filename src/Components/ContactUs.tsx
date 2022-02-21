@@ -11,12 +11,12 @@ const ContactUs = () => {
                         <Col sm={12}><h1 className="section-heading hg-orange">Contact Us</h1></Col>
                     </Row>
                     <Row>
-                        <Col sm={12} className="gmaps-widget">
+                        <Col lg={6} className="gmaps-widget">
                             <StoreGoogleMap />
                         </Col>
-                        <Col className="contact-infos">
+                        <Col lg={6} className="contact-infos">
                             <div className="info address"><span className="emoji">&#127968;</span>Blk 62 Lot 28, Villa Zaragosa, Turo, Bocaue Bulacan</div>
-                            <div className="info mobile"><span className="emoji">&#128222;</span>0917 XXX XXXX</div>
+                            <div className="info mobile"><span className="emoji">&#128222;</span>0992 723 8034</div>
                             <div className="info email"><span className="emoji">&#128231;</span>happygrainsbocaue@gmail.com</div>
                         </Col>
                     </Row>

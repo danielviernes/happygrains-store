@@ -2,23 +2,17 @@
     background-color: #f0e5bb82;
 }
 
-.footer {
-    background-color: #4b2816;
-}
-
-.footer * {
-    color: white;
+#contactUsSection .container {
+    width: 100%;
 }
 
 .gmaps-widget {
     height: 400px;
     /* The height is 400 pixels */
-    width: 100%;
-    /* The width is the width of the web page */
 }
 
 .contact-infos {
-    padding: 1.5rem 0;
+    padding: 1.5rem;
 }
 
 .info {
@@ -26,3 +20,10 @@
     font-size: 0.9rem;
     padding: 0.4rem 0;
 }
+
+@media only screen and (min-width: 576px) {
+    .info {
+        font-size: 1rem;
+    }
+}
+

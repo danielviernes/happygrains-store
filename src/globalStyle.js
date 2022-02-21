@@ -19,7 +19,6 @@ const GlobalStyle = createGlobalStyle`
       margin: 0;
       min-height: 100vh;
       min-width: 100%;
-      text-align: center;
 
       display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
       display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
@@ -98,6 +97,13 @@ const GlobalStyle = createGlobalStyle`
 
     .emoji {
       margin: 0 0.7rem;
+    }
+
+    @media only screen and (min-width: 576px) {
+      .inner-container {
+          width: 100%;
+          max-width: 80%;
+      }
     }
 `;
 
