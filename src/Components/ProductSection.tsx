@@ -21,7 +21,7 @@ const ProductSection = () => {
                     </Row>
                     <Row>
                         <Col sm={12}>
-                            <Form.Select onChange={e => {setSelectedRice(riceInfoList[+e.target.value])}}>
+                            <Form.Select className="text-center" onChange={e => {setSelectedRice(riceInfoList[+e.target.value])}}>
                                 {riceInfoList.map((obj, i) => <option value={i}>{obj.name}</option>)}
                             </Form.Select>
                         </Col>
@@ -31,10 +31,10 @@ const ProductSection = () => {
                         <Col sm={7}>
                             <Row>
                                 <Col sm={12}>
-                                    <h3 className="product-name">{selectedRice.name}</h3>
+                                    <h2 className="product-name">{selectedRice.name}</h2>
                                 </Col>
                             </Row>
-                            <Row>
+                            <Row className="product-info-row">
                                 <Col sm={12}>
                                     <p className="product-info">{selectedRice.summary}</p>
                                 </Col>

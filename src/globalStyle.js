@@ -17,7 +17,8 @@ const GlobalStyle = createGlobalStyle`
 
     .section .container {
       margin: 0;
-      height: 100vh;
+      min-height: 100vh;
+      min-width: 100%;
       text-align: center;
 
       display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
@@ -56,15 +57,15 @@ const GlobalStyle = createGlobalStyle`
 
     h2 {
       color: #e7b73e;
-      font-size: 1rem;
+      font-size: 1.5rem;
     }
 
     h3 {
-      font-size: 0.9rem;
+      font-size: 1.2rem;
     }
 
     h4 {
-      font-size: 0.6rem;
+      font-size: 0.9rem;
       color: #9d5237;
     }
 
@@ -76,7 +77,7 @@ const GlobalStyle = createGlobalStyle`
       font-size: 0.8rem;
       margin: 1rem 0;
       padding: 0.7rem;
-      min-width: 9rem;
+      width: 9rem;
     }
 
     .section-heading {
