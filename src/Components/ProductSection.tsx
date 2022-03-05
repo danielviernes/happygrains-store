@@ -20,6 +20,19 @@ const ProductSection = () => {
                         <Col sm={12}><h1 className="section-heading hg-green">Our Rice</h1></Col>
                     </Row>
                     <Row>
+                        <hr style={{border: "1px solid #489d58", width: "80%", margin: "10px auto"}}/>
+                        <p style={{textAlign: "center"}}>
+                            Here at <span className="hg-orange" style={{fontWeight: "bold"}}>Happy</span><span className="hg-green" style={{fontWeight: "bold"}}>Grains</span> online store, we provide the best rice quality
+                            delivered right at the comforts of your home. 
+                        </p>
+                        <p style={{textAlign: "center"}}>
+                            If you're not sure which rice to get, browse through our rice catalog below. 
+                            <br />We are also happy to personally help you! So chat with us now by clicking the "Order now" button! 
+                            <br />Get your sack of rice today!
+                        </p>
+                        <hr style={{border: "1px solid #e7b73e", width: "80%", margin: "10px auto"}}/>
+                    </Row>
+                    <Row>
                         <Col sm={12}>
                             <Form.Select className="text-center" onChange={e => {setSelectedRice(riceInfoList[+e.target.value])}}>
                                 {riceInfoList.map((obj, i) => <option value={i}>{obj.name}</option>)}

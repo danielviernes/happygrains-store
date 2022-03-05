@@ -7,9 +7,8 @@ const Navigation = () => {
         <Navbar 
             collapseOnSelect 
             expand='sm'
-            bg="light" 
-            variant="light"
-            fixed="top">
+            fixed="top"
+            style={{backgroundColor: "#f7fff5"}}>
             <Container>
                 <Navbar.Brand href="/">
                     <Image className='logo' src={process.env.PUBLIC_URL + '/logo.png'} />

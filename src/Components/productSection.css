@@ -1,5 +1,5 @@
 #productSection {
-    background-color: #ffffff;
+    background-color: #f7fff5;
 }
 
 #productSection .section-heading {
@@ -26,9 +26,6 @@
 }
 
 @media only screen and (min-width: 576px) {
-    #productSection .inner-container {
-        max-width: 70rem;
-    }
 
     #productSection .form-select {
         margin: 0 auto;
@@ -37,10 +34,6 @@
 
     .product-name, .product-info {
         text-align: left;
-    }
-
-    .order-btn, .share-btn {
-        width: 9rem;
     }
     
 }
