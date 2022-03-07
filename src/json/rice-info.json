@@ -2,31 +2,31 @@
     {
         "name": "Angelica",
         "imgName": "angelica",
-        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet egestas lorem. Praesent velit magna, porttitor a lorem id, dignissim faucibus libero. Vestibulum egestas.",
+        "summary": "Angelica is a relatively new rice variety. Tolerant to various climatic conditions, this rice can withstand harsh climates and supply demand more easily than other rice varieties.",
         "for": [
-            "Meals",
-            "Sides",
-            "Pastries"
+            "Great rice for daily meals at home",
+            "Soft and great eating quality",
+            "High availability"
         ]
     },
     {
         "name": "Broken",
         "imgName": "broken",
-        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet egestas lorem. Praesent velit magna, porttitor a lorem id, dignissim faucibus libero. Vestibulum egestas.",
+        "summary": "Despite the name, broken rice isn’t any less in quality compared to other rice. It’s smaller in length but quality, taste and nutrients are still there while being one of the cheapest rice choice out there.",
         "for": [
-            "Meals",
-            "Sides",
-            "Pastries"
+            "Cheap",
+            "Cooks fast and absorbs flavors easily",
+            "Best for commercial use (karinderyas, eateries, restaurants, etc.)"
         ]
     },
     {
         "name": "Brown",
         "imgName": "brown",
-        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet egestas lorem. Praesent velit magna, porttitor a lorem id, dignissim faucibus libero. Vestibulum egestas.",
+        "summary": "One of the most popular type of rice due to its nutritional content and simplicity. Brown rice is a whole grain, containing more nutrients such as vitamins, minerals, and antioxidants.",
         "for": [
-            "Meals",
-            "Sides",
-            "Pastries"
+            "Whole grain",
+            "Nutritious",
+            "Good for many types of diet"
         ]
     },
     {

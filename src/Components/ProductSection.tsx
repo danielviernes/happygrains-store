@@ -50,6 +50,12 @@ const ProductSection = () => {
                             <Row className="product-info-row">
                                 <Col sm={12}>
                                     <p className="product-info">{selectedRice.summary}</p>
+                                    <figure>
+                                        <figcaption>Key characteristics:</figcaption>
+                                        <ul>
+                                            {selectedRice.for.map((obj, i) => <li>{obj.valueOf()}</li>)}
+                                        </ul>
+                                    </figure>
                                 </Col>
                             </Row>
                             <Row className="product-buttons-row">

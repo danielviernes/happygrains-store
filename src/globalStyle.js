@@ -46,6 +46,18 @@ const GlobalStyle = createGlobalStyle`
       border: 2px solid #e7b73e;
     }
 
+    .email-btn {
+      background-color: #909090;
+      color: #FFFFFF;
+      border: 2px solid #909090;
+    }
+
+    .email-btn:hover {
+      background-color: transparent;
+      color: #909090;
+      border: 2px solid #909090;
+    }
+
     h1, h2, h3, h4, button, a{
       font-family: 'Fredoka One', cursive;
     }
@@ -72,7 +84,7 @@ const GlobalStyle = createGlobalStyle`
       max-width: 8em;
     }
 
-    .order-btn, .share-btn {
+    .order-btn, .share-btn, .email-btn {
       font-size: 0.8rem;
       margin: 1rem 0;
       padding: 0.7rem;

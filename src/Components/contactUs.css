@@ -21,9 +21,29 @@
     padding: 0.4rem 0;
 }
 
+#contactUsSection .contact-buttons-row.row {
+    margin: 0;
+}
+
+.contact-buttons-row .col {
+    max-width: fit-content;
+    max-width: -moz-fit-content;
+}
+
+.contact-buttons-row button {
+    display: block;
+    margin: 0 auto;
+}
+
 @media only screen and (min-width: 576px) {
     .info {
         font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 968px) {
+    #contactUsSection .row {
+        margin-top: 2rem;
     }
 }
 
