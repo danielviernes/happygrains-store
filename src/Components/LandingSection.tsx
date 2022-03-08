@@ -4,7 +4,7 @@ import './landingSection.css';
 const LandingSection = () => {
 
     return(
-        <div id="landingSection" className="section">
+        <div id="home" className="section" title="Rice store with different rice varieties inside glass containers surrounded by sacks of rice">
             <Container>
                 <Row>
                     <Col sm={12}><h1>Clean and delicious rice, right at your doorstep!</h1></Col>

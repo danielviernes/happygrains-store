@@ -4,7 +4,7 @@ import StoreGoogleMap from "./StoreGoogleMap";
 
 const ContactUs = () => {
     return(
-        <div id="contactUsSection" className="section">
+        <div id="contact" className="section">
             <Container>
                 <div className="inner-container">
                     <Row>

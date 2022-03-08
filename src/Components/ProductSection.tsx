@@ -13,7 +13,7 @@ const ProductSection = () => {
     }
 
     return(
-        <div id="productSection" className="section">
+        <div id="products" className="section">
             <Container>
                 <div className="inner-container">
                     <Row>
@@ -40,7 +40,7 @@ const ProductSection = () => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col sm={5}><Image className="main-product-img" src={processFullImgPath()}></Image></Col>
+                        <Col sm={5}><Image className="main-product-img" src={processFullImgPath()} alt={selectedRice.alt.valueOf()}></Image></Col>
                         <Col sm={7}>
                             <Row>
                                 <Col sm={12}>

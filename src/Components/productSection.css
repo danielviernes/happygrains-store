@@ -1,12 +1,12 @@
-#productSection {
+#products {
     background-color: #f7fff5;
 }
 
-#productSection .section-heading {
+#products .section-heading {
     margin: 0;
 }
 
-#productSection .row {
+#products .row {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -27,7 +27,7 @@
 
 @media only screen and (min-width: 576px) {
 
-    #productSection .form-select {
+    #products .form-select {
         margin: 0 auto;
         max-width: 15rem;
     }

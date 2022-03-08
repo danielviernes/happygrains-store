@@ -1,8 +1,8 @@
-#contactUsSection {
+#contact {
     background-color: #f0e5bb82;
 }
 
-#contactUsSection .container {
+#contact .container {
     width: 100%;
 }
 
@@ -12,6 +12,8 @@
 }
 
 .contact-infos {
+    display: block;
+    margin: auto;
     padding: 1.5rem;
 }
 
@@ -21,7 +23,7 @@
     padding: 0.4rem 0;
 }
 
-#contactUsSection .contact-buttons-row.row {
+#contact .contact-buttons-row.row {
     margin: 0;
 }
 
@@ -42,7 +44,7 @@
 }
 
 @media only screen and (min-width: 968px) {
-    #contactUsSection .row {
+    #contact .row {
         margin-top: 2rem;
     }
 }

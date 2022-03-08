@@ -2,6 +2,7 @@
     {
         "name": "Angelica",
         "imgName": "angelica",
+        "alt": "happy grains yellow 25kg sack of super angelica rice with dragon and wheat",
         "summary": "Angelica is a relatively new rice variety. Tolerant to various climatic conditions, this rice can withstand harsh climates and supply demand more easily than other rice varieties.",
         "for": [
             "Great rice for daily meals at home",
@@ -12,6 +13,7 @@
     {
         "name": "Broken",
         "imgName": "broken",
+        "alt": "happy grains blue and white 25kg sack of broken rice",
         "summary": "Despite the name, broken rice isn’t any less in quality compared to other rice. It’s smaller in length but quality, taste and nutrients are still there while being one of the cheapest rice choice out there.",
         "for": [
             "Cheap",
@@ -22,6 +24,7 @@
     {
         "name": "Brown",
         "imgName": "brown",
+        "alt": "happy grains green and yellow 25kg sack of sinandomeng rice with beehive honeycomb sunflower graphics",
         "summary": "One of the most popular type of rice due to its nutritional content and simplicity. Brown rice is a whole grain, containing more nutrients such as vitamins, minerals, and antioxidants.",
         "for": [
             "Whole grain",
@@ -32,6 +35,7 @@
     {
         "name": "Denorado",
         "imgName": "denorado",
+        "alt": "happy grains yellow jasmine 25kg sack of denorado rice",
         "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet egestas lorem. Praesent velit magna, porttitor a lorem id, dignissim faucibus libero. Vestibulum egestas.",
         "for": [
             "Meals",
@@ -42,6 +46,7 @@
     {
         "name": "Maharlika",
         "imgName": "maharlika",
+        "alt": "happy grains green 25kg sack of maharlika rice",
         "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet egestas lorem. Praesent velit magna, porttitor a lorem id, dignissim faucibus libero. Vestibulum egestas.",
         "for": [
             "Meals",
@@ -52,6 +57,7 @@
     {
         "name": "Malagkit",
         "imgName": "malagkit",
+        "alt": "happy grains blue 25kg sack of malagkit sticky perfect grain glutinous rice",
         "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet egestas lorem. Praesent velit magna, porttitor a lorem id, dignissim faucibus libero. Vestibulum egestas.",
         "for": [
             "Meals",
@@ -62,6 +68,7 @@
     {
         "name": "Premium Grade",
         "imgName": "premium-grade",
+        "alt": "happy grains yellow 25kg sack of premium grade rice princess jasmine rice",
         "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet egestas lorem. Praesent velit magna, porttitor a lorem id, dignissim faucibus libero. Vestibulum egestas.",
         "for": [
             "Meals",
@@ -72,6 +79,7 @@
     {
         "name": "Red",
         "imgName": "red",
+        "alt": "happy grains red 25kg sack of red rice jasmine bee heart",
         "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet egestas lorem. Praesent velit magna, porttitor a lorem id, dignissim faucibus libero. Vestibulum egestas.",
         "for": [
             "Meals",
@@ -82,6 +90,7 @@
     {
         "name": "Regular Mill",
         "imgName": "regular-mill",
+        "alt": "happy grains yellow and blue 25kg sack of regular mill rice with happy kids graphics",
         "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet egestas lorem. Praesent velit magna, porttitor a lorem id, dignissim faucibus libero. Vestibulum egestas.",
         "for": [
             "Meals",
@@ -92,6 +101,7 @@
     {
         "name": "Sinandomeng",
         "imgName": "sinandomeng",
+        "alt": "happy grains pink red 25kg sack of sinandomeng rice with castle and rainbow graphics",
         "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet egestas lorem. Praesent velit magna, porttitor a lorem id, dignissim faucibus libero. Vestibulum egestas.",
         "for": [
             "Meals",
@@ -102,6 +112,7 @@
     {
         "name": "Special Sinandomeng",
         "imgName": "special-sinandomeng",
+        "alt": "happy grains yellow blue green red 25kg sack of special sinandomeng rice with cherry blossom mount fuji graphics",
         "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet egestas lorem. Praesent velit magna, porttitor a lorem id, dignissim faucibus libero. Vestibulum egestas.",
         "for": [
             "Meals",
@@ -112,6 +123,7 @@
     {
         "name": "Straight Mill",
         "imgName": "straight-mill",
+        "alt": "happy grains gold yellow 25kg sack of straight mill rice with golden dragon graphics",
         "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet egestas lorem. Praesent velit magna, porttitor a lorem id, dignissim faucibus libero. Vestibulum egestas.",
         "for": [
             "Meals",
@@ -122,6 +134,7 @@
     {
         "name": "Well Milled",
         "imgName": "well-milled",
+        "alt": "happy grains green white 25kg sack of well milled rice with white jasmine flower graphics",
         "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet egestas lorem. Praesent velit magna, porttitor a lorem id, dignissim faucibus libero. Vestibulum egestas.",
         "for": [
             "Meals",
@@ -132,6 +145,7 @@
     {
         "name": "Whole Grain",
         "imgName": "whole-grain",
+        "alt": "happy grains orange white 25kg sack of whole grain rice with white water lily graphics",
         "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet egestas lorem. Praesent velit magna, porttitor a lorem id, dignissim faucibus libero. Vestibulum egestas.",
         "for": [
             "Meals",
